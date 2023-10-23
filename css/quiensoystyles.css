@@ -1,0 +1,186 @@
+.banda-roja-quiensoy {
+    background-color: #bf162d; /* Establece el color de fondo a rojo */
+    width: 100%; /* Hace que la banda ocupe todo el ancho disponible */
+    height: 60px; /* Define la altura de la banda, puedes ajustarla según tus necesidades */
+    margin-top: 107px; /*Coloca la banda en la posicion vertical que quieras */
+    left: 0; /* Asegura que la banda comience desde el borde izquierdo */
+
+  }
+
+  .banda-roja-quehahecho {
+    background-color: #bf162d; /* Establece el color de fondo a rojo */
+    width: 100%; /* Hace que la banda ocupe todo el ancho disponible */
+    height: 60px; /* Define la altura de la banda, puedes ajustarla según tus necesidades */
+    margin-top: 180px; /* Coloca la banda en la parte superior de la ventana */
+    left: 0; /* Asegura que la banda comience desde el borde izquierdo */
+
+  }
+  .banda-roja-votar {
+    background-color: #bf162d; /* Establece el color de fondo a rojo */
+    width: 100%; /* Hace que la banda ocupe todo el ancho disponible */
+    height: 60px; /* Define la altura de la banda, puedes ajustarla según tus necesidades */
+    margin-top: 363px; /* Coloca la banda en la parte superior de la ventana */
+    margin-bottom: 260px; /* Coloca la banda en la parte superior de la ventana */
+    left: 0; /* Asegura que la banda comience desde el borde izquierdo */
+
+  }
+  
+  .texto-banda-quiensoy {
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center; /* Centra el texto horizontalmente en la banda */
+    padding-top: 5px; /* Añade espacio superior para centrar verticalmente */
+    font-size: 30px;
+  }
+
+  .texto-banda-quehahecho {
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center; /* Centra el texto horizontalmente en la banda */
+    padding-top: 5px; /* Añade espacio superior para centrar verticalmente */
+    font-size: 30px;
+  }
+
+  .texto-banda-votar {
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center; /* Centra el texto horizontalmente en la banda */
+    padding-top: 5px; /* Añade espacio superior para centrar verticalmente */
+    font-size: 30px;
+  }
+
+  .texto-quiensoy{
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .texto-quehahecho{
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .texto-votar{
+    margin-left: 250px !important;
+    margin-right: 250px !important;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .texto-acompañame{
+    font-weight: bold;
+    color: #000;
+    font-size: 25px;
+    margin-left: 250px !important;
+    margin-top: 70px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .espaciado{
+    height: 40px;
+  }
+
+  .viñeta::before {
+    content: "\2022"; /* Código Unicode para una viñeta de punto */
+    margin-right: 10px; /* Espacio entre la viñeta y el texto */
+    color: #bf162d; /* Color de la viñeta */
+  }
+
+  .interlineado{
+    line-height: 1.5;
+  }
+
+  .textoviñetas{
+    margin-left: 270px !important;
+    font-size: 20px;
+  }
+
+  @media (max-width: 480px), (max-width: 820px), (max-width: 912px), (max-width: 1024px){
+
+ .banda-roja-quiensoy {
+    background-color: #bf162d; /* Establece el color de fondo a rojo */
+    width: 100%; /* Hace que la banda ocupe todo el ancho disponible */
+    height: 60px; /* Define la altura de la banda, puedes ajustarla según tus necesidades */
+    margin-top: 102px; /*Coloca la banda en la posicion vertical que quieras */
+    left: 0; /* Asegura que la banda comience desde el borde izquierdo */
+
+  }
+
+ .banda-roja-quehahecho {
+    background-color: #bf162d; /* Establece el color de fondo a rojo */
+    width: 100%; /* Hace que la banda ocupe todo el ancho disponible */
+    height: 60px; /* Define la altura de la banda, puedes ajustarla según tus necesidades */
+    margin-top: 280px; /* Coloca la banda en la parte superior de la ventana */
+    left: 0; /* Asegura que la banda comience desde el borde izquierdo */
+
+  }
+
+ .banda-roja-votar {
+    background-color: #bf162d; /* Establece el color de fondo a rojo */
+    width: 100%; /* Hace que la banda ocupe todo el ancho disponible */
+    height: 60px; /* Define la altura de la banda, puedes ajustarla según tus necesidades */
+    margin-top: 555px; /* Coloca la banda en la parte superior de la ventana */
+    left: 0; /* Asegura que la banda comience desde el borde izquierdo */
+
+  }
+
+  .texto-quiensoy{
+    margin: 40px !important;
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .texto-quehahecho{
+    margin: 40px !important;
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .texto-votar{
+    margin: 40px !important;
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .texto-banda-quehahecho {
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center; /* Centra el texto horizontalmente en la banda */
+    padding-top: 12px; /* Añade espacio superior para centrar verticalmente */
+    font-size: 20px;
+  }
+
+  .texto-banda-votar {
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center; /* Centra el texto horizontalmente en la banda */
+    padding-top: 16px; /* Añade espacio superior para centrar verticalmente */
+    font-size: 17px;
+  }
+
+  .texto-viñeta{
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  .viñeta::before {
+    content: "\2022"; /* Código Unicode para una viñeta de punto */
+    margin-right: 10px; /* Espacio entre la viñeta y el texto */
+    color: #bf162d; /* Color de la viñeta */
+    font-size: 30px;
+    line-height: 0.2;
+  }
+
+  .texto-acompañame{
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    margin: 30px !important;
+  }
+
+  .textoviñetas {
+    margin-left: 50px !important;
+    font-size: 17px;
+  }
+
+
+}
